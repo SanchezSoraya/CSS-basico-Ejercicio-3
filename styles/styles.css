@@ -1,0 +1,106 @@
+:root {
+    --orange: #D35400;
+    --green: #186A3B;
+    --red: #B03A2E;
+    --pink: #F5B7B1;
+}
+
+body {
+    background-color: #BEBEBE;
+    color: Black;
+    padding: 1%;
+}
+
+header {
+    background-color: var(--green);
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 1%;
+}
+
+main {
+    background-color: #CCCCCC;
+    padding: 1%;
+}
+
+h1 {
+    background-color: var(--pink);
+    font-size: x-large;
+    padding: 1%;
+    border-style: dotted;
+}
+
+h2 {
+    background-color: #B3B3B3;
+    font-size: large;
+    padding: 1%;
+    border-style: double;
+}
+
+p {
+    align-content: center;
+    background-color: #c6c4c4;
+    padding: 1%;
+    border-style: outset;
+}
+
+p::first-line {
+    color: blue;
+}
+
+em {
+    background-color: var(--orange);
+}
+
+strong {
+    background-color: #B3B3B3;
+    padding: 1%;
+}
+
+strong:hover {
+    border: 2px solid blue;
+}
+
+ul {
+    background-color: #999999;
+    padding: 1%;
+}
+
+li {
+    background-color: var(--orange);
+    padding: 1%;
+    border-style: ridge;
+}
+
+li::first-letter {
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;
+}
+
+
+/* Herencia */
+
+footer {
+    background-color: var(--red);
+    padding: 1%;
+    color: purple;
+    border-style: solid;
+}
+
+
+/* eliminamos los estilos de los enlaces*/
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: green;
+}
